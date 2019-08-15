@@ -3,7 +3,7 @@ body{
     line-height: 26px;*/
     color: #545454;
     font-family: 'Roboto Slab', serif;  
-    margin: 0 auto;
+   /* margin: 0 auto;*/
     /* max-width: 1200px;  */
 }
 
@@ -74,7 +74,7 @@ a {
     background: #BED4D4;
     text-align: center;   
     padding: 40px 0 0 0;
-    height: 1000px;
+    height: 850px;
 }
 
 .mockups{
@@ -96,6 +96,7 @@ a {
     width: 193px;
     margin-top: 20px;
     text-align: left;
+    line-height: 22px;
 }
 
 .Mealky h5{
@@ -108,13 +109,20 @@ a {
     margin-top: 50px;
 }
 
-.footer-background{     
-    background-image: url('./Imgs/Path\ 3.png')
+.footer-background{   
+    background-color: #BED4D4;  
+    background-image: url('/Imgs/footer.png');
+    background-size: cover;
+    height: 282px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .rrss{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    
 }
